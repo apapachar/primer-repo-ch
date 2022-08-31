@@ -52,10 +52,16 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     color: #fff;
+    cursor: pointer;
+    transition: 2s;
 }
 
+.yoga2-img:hover{
+    transform: translatex(-7%);
+    filter: brightness(80%);
+}
 .yoga2-img p {
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .yoga2-img h1 {
